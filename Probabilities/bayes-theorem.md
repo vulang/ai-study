@@ -229,7 +229,8 @@ Hãy tham khảo bài viết về [Phân Loại Naive Bayes](./naive-bayes-class
 ---
 
 **Tham khảo thêm:**
-
+- [Trang chủ](../README.md)
+- [Định Lý Giới Hạn Trung Tâm: Nền Tảng Của Thống Kê Suy Luận](./central-limit-theorem.md)
 - [Phân Loại Naive Bayes: Thuật Toán Đơn Giản Nhưng Mạnh Mẽ](./naive-bayes-classification.md)
 
 *Bài viết này là một phần trong series về Xác suất và Thống kê trong Machine Learning.*

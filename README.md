@@ -20,4 +20,5 @@ Kho tài liệu này dành cho việc học tập và nghiên cứu cá nhân v�
 
 ### Xác Suất & Thống Kê
 - [Định Lý Bayes: Nền Tảng Của Suy Luận Thống Kê](./Probabilities/bayes-theorem.md)
+- [Định Lý Giới Hạn Trung Tâm: Nền Tảng Của Thống Kê Suy Luận](./Probabilities/central-limit-theorem.md)
 - [Phân Loại Naive Bayes: Thuật Toán Đơn Giản Nhưng Mạnh Mẽ](./Probabilities/naive-bayes-classification.md)

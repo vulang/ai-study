@@ -163,7 +163,8 @@ Hiểu rõ nguyên lý và cách áp dụng Naive Bayes sẽ giúp bạn có n�
 ---
 
 **Tham khảo thêm:**
-
+- [Trang chủ](../README.md)
 - [Định Lý Bayes: Nền Tảng Của Suy Luận Thống Kê](./bayes-theorem.md)
+- [Định Lý Giới Hạn Trung Tâm: Nền Tảng Của Thống Kê Suy Luận](./central-limit-theorem.md)
 
 *Bài viết này là một phần trong series về Xác suất và Thống kê trong Machine Learning. Hãy theo dõi để cập nhật thêm nhiều kiến thức bổ ích!*
