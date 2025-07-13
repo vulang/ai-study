@@ -5,7 +5,6 @@ date: 2025-07-13
 categories: [machine-learning, probability]
 tags: [naive-bayes, classification, vietnamese]
 ---
-
 # Phân Loại Naive Bayes: Thuật Toán Đơn Giản Nhưng Mạnh Mẽ
 
 ## Giới Thiệu
@@ -14,15 +13,16 @@ Naive Bayes là một trong những thuật toán phân loại cơ bản và hi�
 
 ## Định Lý Bayes
 
-Trước khi hiểu về Naive Bayes Classification, chúng ta cần nắm vững định lý Bayes:
+Trước khi hiểu về Naive Bayes Classification, chúng ta cần nắm vững [định lý Bayes](./bayes-theorem.md):
 
 ```
 P(A|B) = P(B|A) × P(A) / P(B)
 ```
 
 Trong đó:
+
 - **P(A|B)**: Xác suất hậu nghiệm (posterior probability) - xác suất xảy ra A khi biết B đã xảy ra
-- **P(B|A)**: Likelihood - xác suất xảy ra B khi biết A đã xảy ra  
+- **P(B|A)**: Likelihood - xác suất xảy ra B khi biết A đã xảy ra
 - **P(A)**: Xác suất tiên nghiệm (prior probability) - xác suất xảy ra A
 - **P(B)**: Evidence - xác suất xảy ra B
 
@@ -55,12 +55,15 @@ P(y|X) ∝ P(y) × ∏ᵢ P(xᵢ|y)
 ## Các Biến Thể Chính
 
 ### 1. Gaussian Naive Bayes
+
 Sử dụng cho dữ liệu liên tục, giả định các đặc trưng tuân theo phân phối chuẩn.
 
-### 2. Multinomial Naive Bayes  
+### 2. Multinomial Naive Bayes
+
 Phù hợp với dữ liệu đếm (count data), thường dùng trong phân loại văn bản.
 
 ### 3. Bernoulli Naive Bayes
+
 Sử dụng cho dữ liệu nhị phân (binary features).
 
 ## Ví Dụ Thực Tế: Phân Loại Email Spam
@@ -68,23 +71,28 @@ Sử dụng cho dữ liệu nhị phân (binary features).
 Giả sử chúng ta muốn phân loại email spam dựa trên sự xuất hiện của các từ khóa:
 
 ### Dữ liệu Huấn Luyện:
+
 - **Spam**: "Khuyến mãi đặc biệt! Giảm giá 50%!"
 - **Không spam**: "Cuộc họp vào lúc 2 giờ chiều"
 
 ### Bước 1: Tính xác suất tiên nghiệm
+
 ```
 P(spam) = số email spam / tổng số email
 P(không spam) = số email không spam / tổng số email
 ```
 
 ### Bước 2: Tính likelihood cho từng từ
+
 ```
 P("khuyến mãi" | spam) = số lần xuất hiện trong spam / tổng từ trong spam
 P("khuyến mãi" | không spam) = số lần xuất hiện trong không spam / tổng từ trong không spam
 ```
 
 ### Bước 3: Phân loại email mới
+
 Với email mới chứa từ "khuyến mãi":
+
 ```
 P(spam | "khuyến mãi") ∝ P(spam) × P("khuyến mãi" | spam)
 P(không spam | "khuyến mãi") ∝ P(không spam) × P("khuyến mãi" | không spam)
@@ -93,12 +101,14 @@ P(không spam | "khuyến mãi") ∝ P(không spam) × P("khuyến mãi" | khôn
 ## Ưu Điểm và Nhược Điểm
 
 ### Ưu Điểm:
+
 - **Đơn giản và nhanh**: Dễ implement và training nhanh
 - **Hiệu quả với dữ liệu nhỏ**: Hoạt động tốt ngay cả khi có ít dữ liệu training
 - **Không nhạy cảm với nhiễu**: Robust với outliers
 - **Xử lý tốt với nhiều lớp**: Có thể phân loại nhiều lớp một cách tự nhiên
 
 ### Nhược Điểm:
+
 - **Giả định độc lập**: Các đặc trưng thường có mối quan hệ với nhau trong thực tế
 - **Zero probability problem**: Nếu một đặc trưng chưa từng xuất hiện trong training set
 - **Cần smoothing**: Thường cần áp dụng Laplace smoothing để tránh zero probability
@@ -106,6 +116,7 @@ P(không spam | "khuyến mãi") ∝ P(không spam) × P("khuyến mãi" | khôn
 ## Kỹ Thuật Cải Thiện
 
 ### 1. Laplace Smoothing
+
 Thêm một giá trị nhỏ α (thường là 1) để tránh xác suất bằng 0:
 
 ```
@@ -113,6 +124,7 @@ P(xᵢ|y) = (count(xᵢ, y) + α) / (count(y) + α × |V|)
 ```
 
 ### 2. Feature Selection
+
 Loại bỏ các đặc trưng không quan trọng để giảm nhiễu và cải thiện hiệu suất.
 
 ## Ứng Dụng Thực Tế
@@ -149,5 +161,9 @@ Naive Bayes là một thuật toán phân loại mạnh mẽ với nhiều ưu �
 Hiểu rõ nguyên lý và cách áp dụng Naive Bayes sẽ giúp bạn có nền tảng vững chắc để khám phá các thuật toán Machine Learning phức tạp hơn.
 
 ---
+
+**Tham khảo thêm:**
+
+- [Định Lý Bayes: Nền Tảng Của Suy Luận Thống Kê](./bayes-theorem.md)
 
 *Bài viết này là một phần trong series về Xác suất và Thống kê trong Machine Learning. Hãy theo dõi để cập nhật thêm nhiều kiến thức bổ ích!*
