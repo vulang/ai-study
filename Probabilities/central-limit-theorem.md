@@ -381,6 +381,6 @@ Hiểu rõ CLT sẽ giúp bạn:
 - [Trang chủ](../README.md)
 - [Định Lý Bayes: Nền Tảng Của Suy Luận Thống Kê](./bayes-theorem.md)
 - [Phân Loại Naive Bayes: Thuật Toán Đơn Giản Nhưng Mạnh Mẽ](./naive-bayes-classification.md)
-- StatQuests: [https://youtu.be/YAlJCEDH2uY?si=fFmCi-TI45piByEW]()
+- StatQuests: [https://youtu.be/YAlJCEDH2uY?si=fFmCi-TI45piByEW](https://youtu.be/YAlJCEDH2uY?si=fFmCi-TI45piByEW)
 
 *Bài viết này là một phần trong series về Xác suất và Thống kê trong Machine Learning.*
