@@ -1,22 +1,22 @@
-# AI Study Repository
+# Kho Tài Liệu Học Tập AI
 
-This repository is for personal learning and studying Artificial Intelligence, covering topics from basics to advanced concepts in Machine Learning (ML) and Deep Learning (DL).
+Kho tài liệu này dành cho việc học tập và nghiên cứu cá nhân về Trí Tuệ Nhân Tạo, bao gồm các chủ đề từ cơ bản đến nâng cao trong Machine Learning (ML) và Deep Learning (DL).
 
-## Purpose
+## Mục Đích
 
-- Personal educational journey through AI fundamentals
-- Hands-on practice with ML/DL algorithms and frameworks
-- Code examples, experiments, and implementations
-- Study notes and research exploration
+- Hành trình học tập cá nhân về các kiến thức nền tảng AI
+- Thực hành với các thuật toán và framework ML/DL
+- Ví dụ code, thí nghiệm và triển khai thực tế
+- Ghi chú học tập và khám phá nghiên cứu
 
-## Topics Covered
+## Chủ Đề Được Đề Cập
 
-- **Machine Learning Basics**: Supervised, unsupervised, and reinforcement learning
-- **Deep Learning**: Neural networks, CNNs, RNNs, transformers
-- **Advanced Topics**: Computer vision, NLP, generative models
-- **Practical Applications**: Real-world projects and case studies
+- **Cơ Bản Machine Learning**: Học có giám sát, không giám sát và học tăng cường
+- **Deep Learning**: Mạng neural, CNNs, RNNs, transformers
+- **Chủ Đề Nâng Cao**: Computer vision, NLP, mô hình sinh
+- **Ứng Dụng Thực Tế**: Dự án thực tế và nghiên cứu tình huống
 
-## Blog Posts
+## Bài Viết Blog
 
-### Probabilities & Statistics
+### Xác Suất & Thống Kê
 - [Phân Loại Naive Bayes: Thuật Toán Đơn Giản Nhưng Mạnh Mẽ](./Probabilities/naive-bayes-classification.md)
