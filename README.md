@@ -15,3 +15,8 @@ This repository is for personal learning and studying Artificial Intelligence, c
 - **Deep Learning**: Neural networks, CNNs, RNNs, transformers
 - **Advanced Topics**: Computer vision, NLP, generative models
 - **Practical Applications**: Real-world projects and case studies
+
+## Blog Posts
+
+### Probabilities & Statistics
+- [Phân Loại Naive Bayes: Thuật Toán Đơn Giản Nhưng Mạnh Mẽ](./Probabilities/naive-bayes-classification.md)
