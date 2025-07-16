@@ -22,3 +22,4 @@ Kho tài liệu này dành cho việc học tập và nghiên cứu cá nhân v�
 - [Định Lý Bayes: Nền Tảng Của Suy Luận Thống Kê](./Probabilities/bayes-theorem.md)
 - [Định Lý Giới Hạn Trung Tâm: Nền Tảng Của Thống Kê Suy Luận](./Probabilities/central-limit-theorem.md)
 - [Phân Loại Naive Bayes: Thuật Toán Đơn Giản Nhưng Mạnh Mẽ](./Probabilities/naive-bayes-classification.md)
+- [Giá Trị Kỳ Vọng: Hướng Dẫn Ra Quyết Định Toán Học](./expected-value-blog-post.md)
